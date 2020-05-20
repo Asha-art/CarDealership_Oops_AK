@@ -3,8 +3,9 @@ public class LightTruck extends Vehicle {
     private boolean isFourWheeled;
 
     public LightTruck(String VIN, double wholesaleCost, double retailPrice, int modelYear, String make, String model,
-            String color, long towingCapacity, long truckWeight, boolean isFourWheeled) {
-        super(VIN, wholesaleCost, retailPrice, modelYear, make, model, color);
+            String color, long towingCapacity, long grossCombinedWeight, long truckWeight, boolean isFourWheeled,
+            VehicleClassification vehicleClass) {
+        super(VIN, wholesaleCost, retailPrice, modelYear, make, model, color, vehicleClass);
         this.towingCapacity = towingCapacity;
         this.grossCombinedWeight = grossCombinedWeight;
         this.truckWeight = truckWeight;
