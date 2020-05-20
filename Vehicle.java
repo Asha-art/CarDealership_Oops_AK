@@ -83,7 +83,7 @@ public class Vehicle {
 
     public String toString() {
         return this.getModelYear() + " " + this.getMake() + " " + this.getModel();
-
+        // 2018 Kia Sorrento
     }
 
     public double getTargetMargin() {
